@@ -1,6 +1,7 @@
 import requests
 import pyperclip
 from bs4 import BeautifulSoup
+"""Utilizo esta pagina para comprobar el codigo: https://chequeado.com/blog/?current-page=1#listing"""
 def save_html():
     soup = BeautifulSoup(response.text, 'html.parser')
     articulos = soup.find_all('a')
