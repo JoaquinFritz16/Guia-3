@@ -2,7 +2,7 @@ import requests
 import pyperclip
 from bs4 import BeautifulSoup
 import os
-
+"""Utilizo esta pagina para comprobar el codigo: https://www.mercadolibre.com.ar"""
 def obtener_calificaciones(url):
     try:
         response = requests.get(url)
