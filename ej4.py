@@ -2,7 +2,7 @@ import requests
 import pyperclip
 from bs4 import BeautifulSoup
 import os
-
+"""Utilizo esta pagina para comprobar el codigo: https://www.argentina.gob.ar/noticias/recomendaciones-para-la-cobertura-del-mundial-de-futbol-qatar-2022"""
 def descargar_pdf(url, direc):
     try:
         response = requests.get(url)
